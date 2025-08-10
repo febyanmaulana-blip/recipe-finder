@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Finder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <img id="github-avatar" src="" alt="GitHub Avatar" class="avatar" />
+      <h3>Febyan Maulana Basyit</h3>
+    </div>
+    <a href="https://github.com/febyanmaulana-blip" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/febyan-maulana-basyit-5335b3227/" target="_blank">LinkedIn</a>
+  </div>
+
+  <div class="content-wrapper" id="contentWrapper">
+    <header>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Recipe Finder</h1>
+      <button id="darkModeToggle">🌙</button>
+    </header>
+
+    <main>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for recipes..." />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="recipeResults" class="recipes"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
